@@ -3,41 +3,13 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
-
-/* THANKS */
-  Names (& URL):
+  Lead developer: Alejandro García Iglesias
+  Site: ale.garciaiglesias [at] gmail.com
+  Twitter: @garciawebdev
+  Location: Buenos Aires, Argentina
 
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: Modernizr, jQuery
-  Software:
-
-
-
-                               -o/-
-                               +oo//-
-                              :ooo+//:
-                             -ooooo///-
-                             /oooooo//:
-                            :ooooooo+//-
-                           -+oooooooo///-
-           -://////////////+oooooooooo++////////////::
-            :+ooooooooooooooooooooooooooooooooooooo+:::-
-              -/+ooooooooooooooooooooooooooooooo+/::////:-
-                -:+oooooooooooooooooooooooooooo/::///////:-
-                  --/+ooooooooooooooooooooo+::://////:-
-                     -:+ooooooooooooooooo+:://////:--
-                       /ooooooooooooooooo+//////:-
-                      -ooooooooooooooooooo////-
-                      /ooooooooo+oooooooooo//:
-                     :ooooooo+/::/+oooooooo+//-
-                    -oooooo/::///////+oooooo///-
-                    /ooo+::://////:---:/+oooo//:
-                   -o+/::///////:-      -:/+o+//-
-                   :-:///////:-            -:/://
-                     -////:-                 --//:
-                       --                       -:
+  Standards: HTML5, CSS, JS / Node.js.
+  Components: Bootstrap, Modernizr, jQuery, Socket.io, Ember.js, Titanium Mobile SDK.
+  Software: MacOSX, Sublime Text 2, Titanium Studio, Git, MongoDB.
+  Hardware: MacBook, Motorola Milestone 2.
