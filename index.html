@@ -1,0 +1,91 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Geolocation chat</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <link rel="stylesheet" href="assets/styles/style.css">
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except this Modernizr build.
+       Modernizr enables HTML5 elements & feature detects for optimal performance.
+       Create your own custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="assets/scripts/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">Geolocation chat</a>
+          <ul class="nav pull-right">
+            <li><a href="index.html">Salir</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-fluid" role="main">
+    <!-- login -->
+    <div id="login" class="row-fluid">
+      <div class="span12">
+        <p>Login to start chatting with people near you. Don't have an account? Don't worry, fill the form and it will be created when you press the Login button for the first time.</p>
+        <form action="" method="post" id="login-form" class="span3">
+          <label>Username <input type="text" name="username" class="span12"></label>
+          <label>Password <input type="password" name="password" class="span12"></label>
+          <input type="submit" class="btn btn-primary" value="Login">
+        </form>
+      </div>
+    </div>
+    <!-- /login -->
+
+    <!-- chat -->
+    <div id="chat">
+      <div class="row-fluid">
+        <div class="well span3">
+          <ul id="user-list" class="nav nav-list">
+            <li class="nav-header">Users nearby</li>
+          </ul>
+        </div>
+        <div id="messages" class="span9 well"></div>
+      </div>
+      <div class="navbar navbar-fixed-bottom">
+        <div class="navbar-inner">
+          <div class="container-fluid">
+            <form id="msg" action="" method="post">
+              <input type="text" name="msg" class="span12">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div><!-- /chat -->
+  </div>
+
+  <!-- JavaScript at the bottom for fast page loading -->
+  <script src="assets/scripts/libs/jquery-1.7.2.min.js"></script>
+  <script src="assets/scripts/libs/bootstrap.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+
+  <!-- scripts concatenated and minified via build script -->
+  <script src="assets/scripts/plugins.js"></script>
+  <script src="assets/scripts/script.js"></script>
+  <!-- end scripts -->
+</body>
+</html>

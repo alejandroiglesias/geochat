@@ -1,0 +1,15 @@
+@import 'bootstrap.css';
+@import 'bootstrap-responsive.css';
+
+body {
+  padding-bottom: 40px;
+}
+
+#user-list {
+  padding: 0;
+}
+
+#login-form {
+  margin-left: auto;
+  margin-right: auto;
+}
