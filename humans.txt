@@ -3,9 +3,9 @@
 
 
 /* TEAM */
-  Lead developer: Alejandro García Iglesias
-  Site: ale.garciaiglesias [at] gmail.com
-  Twitter: @garciawebdev
+  Lead developer: Alejandro Iglesias
+  Site: alejandro-iglesias.com
+  Twitter: @aiglesias_
   Location: Buenos Aires, Argentina
 
 /* SITE */
